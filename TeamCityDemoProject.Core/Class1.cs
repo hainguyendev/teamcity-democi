@@ -12,5 +12,9 @@ namespace TeamCityDemoProject.Core
         {
             return "news.zing.vn";
         }
+        public static string Test(string name)
+        {
+            return name;
+        }
     }
 }

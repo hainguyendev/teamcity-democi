@@ -16,5 +16,18 @@ namespace TeamCityDemoProject.CoreTests
 
             Assert.AreEqual(expectResult, realResult);
         }
+
+        [Test()]
+        public void TestMethodTest()
+        {
+            string nameInput = "Hải đẹp trai";
+            string expectResult = nameInput;
+
+            string realResult = Common.Test(nameInput);
+
+            Assert.AreEqual(expectResult, realResult);
+        }
+
+
     }
 }
