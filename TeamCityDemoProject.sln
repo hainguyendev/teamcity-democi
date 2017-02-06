@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCityDemoProject", "TeamCityDemoProject\TeamCityDemoProject.csproj", "{2CA357B3-202D-4862-9684-28AA3041FB02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCityDemoProject.Core", "TeamCityDemoProject.Core\TeamCityDemoProject.Core.csproj", "{5B45D744-1486-4BB7-956A-13B6DEFA7805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCityDemoProject.CoreTests", "TeamCityDemoProject.CoreTests\TeamCityDemoProject.CoreTests.csproj", "{BF08512F-958B-4F92-BDE2-E67735A34B0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{2CA357B3-202D-4862-9684-28AA3041FB02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CA357B3-202D-4862-9684-28AA3041FB02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CA357B3-202D-4862-9684-28AA3041FB02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B45D744-1486-4BB7-956A-13B6DEFA7805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B45D744-1486-4BB7-956A-13B6DEFA7805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B45D744-1486-4BB7-956A-13B6DEFA7805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B45D744-1486-4BB7-956A-13B6DEFA7805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF08512F-958B-4F92-BDE2-E67735A34B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF08512F-958B-4F92-BDE2-E67735A34B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF08512F-958B-4F92-BDE2-E67735A34B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF08512F-958B-4F92-BDE2-E67735A34B0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
