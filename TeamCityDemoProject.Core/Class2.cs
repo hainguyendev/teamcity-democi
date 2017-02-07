@@ -8,5 +8,9 @@ namespace TeamCityDemoProject.Core
 {
     class Class2
     {
+        public static int Return2(string input)
+        {
+            return 2;
+        }
     }
 }
