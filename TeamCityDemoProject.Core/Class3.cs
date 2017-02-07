@@ -10,7 +10,7 @@ namespace TeamCityDemoProject.Core
     {
         public static int ReturnClass3(string input)
         {
-
+            return 3;
         }
     }
 }
