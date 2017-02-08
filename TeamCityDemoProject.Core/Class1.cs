@@ -10,7 +10,7 @@ namespace TeamCityDemoProject.Core
     {
         public static string ParseDomain(string url)
         {
-            return "news.zing.vn";
+            return "news.zing.vn2";
         }
         public static string Test(string name)
         {
