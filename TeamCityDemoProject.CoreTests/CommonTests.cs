@@ -10,7 +10,7 @@ namespace TeamCityDemoProject.CoreTests
         public void ShouldGetDomainWhenInputNormalLInk()
         {
             string linkInput = "http://news.zing.vn/anh-hung-xa-dieu-that-bai-vo-hiep-kim-dung-da-het-thoi-post717747.html";
-            string expectResult = "news.zing.vn2";
+            string expectResult = "news.zing.vn";
 
             string realResult = Common.ParseDomain(linkInput);
 
